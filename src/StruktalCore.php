@@ -18,9 +18,6 @@ use struktal\validation\ValidationBuilder;
 
 class StruktalCore {
     public static function start(string $appDirectory, ?string $userObjectName = null): void {
-        // Autoload Composer libraries
-        require_once($appDirectory . "/vendor/autoload.php");
-
         // ClassLoader
         $classLoader = \struktal\core\internal\ClassLoader::getInstance();
 

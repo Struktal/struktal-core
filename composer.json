@@ -1,0 +1,36 @@
+{
+    "name": "struktal/struktal-core",
+    "description": "Core library for the Struktal PHP framework",
+    "keywords": [
+        "struktal"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "struktal\\core\\": "src/",
+            "struktal\\core\\internal\\": "src/internal/"
+        }
+    },
+    "require": {
+        "php": ">=8.2.0",
+
+        "struktal/struktal-config": "^1.0.1",
+        "struktal/struktal-logger": "^1.0.2",
+        "struktal/struktal-router": "^2.0.0",
+        "struktal/struktal-api": "^1.0.0",
+        "struktal/struktal-orm": "^3.0.1",
+        "struktal/struktal-auth": "^4.0.1",
+        "struktal/struktal-validation": "^2.1.3",
+        "struktal/struktal-translator": "^1.1.0",
+
+        "eftec/bladeone": "^4.19.0",
+        "struktal/struktal-curl": "^1.2.0",
+        "struktal/struktal-phpmailer-wrapper": "^1.0.0",
+        "struktal/struktal-infomessages": "^1.0.0",
+        "struktal/struktal-file-uploads": "^2.0.0",
+        "struktal/struktal-csv-reader": "^1.1.0",
+        "struktal/struktal-geocoding-util": "^1.1.0",
+        "struktal/struktal-composer-reader": "^1.0.0"
+    }
+}

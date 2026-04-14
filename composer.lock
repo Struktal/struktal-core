@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a74f789e11fa4254c9706f0804c04af5",
+    "content-hash": "7891c369dbf5a76b8a9ad9b73ef098ec",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -489,6 +489,43 @@
                 "source": "https://github.com/Struktal/struktal-infomessages/tree/1.0.0"
             },
             "time": "2025-08-23T14:33:07+00:00"
+        },
+        {
+            "name": "struktal/struktal-job-executor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Struktal/struktal-job-executor.git",
+                "reference": "7ff69156320916ae06139a48796ae82a62e89fe4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Struktal/struktal-job-executor/zipball/7ff69156320916ae06139a48796ae82a62e89fe4",
+                "reference": "7ff69156320916ae06139a48796ae82a62e89fe4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "struktal\\jobexecutor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP library for executing jobs in a separate PHP process",
+            "keywords": [
+                "job-executor"
+            ],
+            "support": {
+                "issues": "https://github.com/Struktal/struktal-job-executor/issues",
+                "source": "https://github.com/Struktal/struktal-job-executor/tree/1.0.0"
+            },
+            "time": "2026-04-14T16:55:56+00:00"
         },
         {
             "name": "struktal/struktal-logger",

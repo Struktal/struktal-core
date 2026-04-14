@@ -14,6 +14,7 @@ use struktal\ORM\Database\Database;
 use struktal\Router\Router;
 use struktal\Translator\LanguageUtil;
 use struktal\Translator\Translator;
+use struktal\jobexecutor\JobExecutor;
 use struktal\validation\ValidationBuilder;
 
 class StruktalCore {
@@ -59,6 +60,9 @@ class StruktalCore {
         Translator::setDomain("messages");
         Translator::setLocale(LanguageUtil::getPreferredLocale());
         define("Translator", new Translator());
+
+        JobExecutor::setJobDirectory($appDirectory . "/src/runjobs/");
+        define("JobExecutor", new JobExecutor());
 
         define("Blade", new BladeOne($appDirectory . "/src/templates", $appDirectory . "/template-cache", BladeOne::MODE_DEBUG));
 

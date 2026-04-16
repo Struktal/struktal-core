@@ -13,9 +13,12 @@ class StruktalDevCoreInitializer {
 
         $event->getIO()->write("<info>⏳ [STRUKTAL] Installing Playwright dependencies...</info>");
 
+        $pathToPlaywrightInstall = [ ".", "vendor", "bin", "playwright-install" ];
+        $playwrightInstall = implode(DIRECTORY_SEPARATOR, $pathToPlaywrightInstall);
+
         $commands = [
-            "vendor/bin/playwright-install --browsers",
-            "vendor/bin/playwright-install --with-deps"
+            "$playwrightInstall --browsers",
+            "$playwrightInstall --with-deps"
         ];
 
         foreach ($commands as $command) {

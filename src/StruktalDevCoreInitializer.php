@@ -17,8 +17,7 @@ class StruktalDevCoreInitializer {
         $playwrightInstall = implode(DIRECTORY_SEPARATOR, $pathToPlaywrightInstall);
 
         $commands = [
-            "$playwrightInstall --browsers",
-            "$playwrightInstall --with-deps"
+            "$playwrightInstall --browsers --with-deps --verbose"
         ];
 
         foreach ($commands as $command) {

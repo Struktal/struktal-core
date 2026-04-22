@@ -492,16 +492,16 @@
         },
         {
             "name": "struktal/struktal-job-executor",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-job-executor.git",
-                "reference": "7ff69156320916ae06139a48796ae82a62e89fe4"
+                "reference": "f19b6457296e818660165108d542dcf853fce17c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-job-executor/zipball/7ff69156320916ae06139a48796ae82a62e89fe4",
-                "reference": "7ff69156320916ae06139a48796ae82a62e89fe4",
+                "url": "https://api.github.com/repos/Struktal/struktal-job-executor/zipball/f19b6457296e818660165108d542dcf853fce17c",
+                "reference": "f19b6457296e818660165108d542dcf853fce17c",
                 "shasum": ""
             },
             "require": {
@@ -523,9 +523,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-job-executor/issues",
-                "source": "https://github.com/Struktal/struktal-job-executor/tree/1.0.0"
+                "source": "https://github.com/Struktal/struktal-job-executor/tree/1.0.1"
             },
-            "time": "2026-04-14T16:55:56+00:00"
+            "time": "2026-04-21T20:25:41+00:00"
         },
         {
             "name": "struktal/struktal-logger",
@@ -772,12 +772,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.2.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
